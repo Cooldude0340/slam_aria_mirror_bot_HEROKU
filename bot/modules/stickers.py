@@ -428,7 +428,7 @@ def stickhelp(update, context):
     help_string = '''
 • `/stcrid`*:* reply to a sticker to me to tell you its file ID.
 • `/getstcr`*:* reply to a sticker to me to upload its raw PNG file.
-• `/kangana`*:* reply to a sticker to add it to your pack.
+• `/steal`*:* reply to a sticker to add it to your pack.
 • `/stcrs`*:* Find stickers for given term on combot sticker catalogue
 '''
     update.effective_message.reply_photo("https://telegra.ph/file/db03910496f06094f1f7a.jpg", help_string, parse_mode=ParseMode.MARKDOWN)
